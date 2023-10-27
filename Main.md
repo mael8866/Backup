@@ -14,7 +14,7 @@ Datensicherungskonzept
 
 Datensicherheitskonzept:
 
-Das Datensicherungssystem wird für die CRM Datenbank eines kleineren Betriebes konzipiert. Die Auslegung basiert auf den Empfehlungen der BSI CON.3 Datensicherungskonzept.
+Das Datensicherungssystem wird für die CRM Datenbank eines kleineren Elektrikrer-Betriebes konzipiert. Die Auslegung basiert auf den Empfehlungen der BSI CON.3 Datensicherungskonzept.
 
 Auf Grund des Geschäftsmodell der Firma besteht keine regulatorische Pflicht die Daten länger aufzubewahren und es muss keine Archivierungslösung implementiert werden.
 
@@ -67,3 +67,17 @@ o Der Status des täglichen Backups wird via Email informiert
 o Können die Daten zurückgespielt werden
 
 § Monatlich wird ein Restore-Test durchgeführt initial werden die Restore-Tests wöchentlich (4mal) getestet und auch gleich als wiederholte Schulung
+
+
+
+## Tagesrefelxion
+
+27.10.2023
+
+Ich habe heute mit Herr Rohr über mein Datensicherungskonzept gesprochen. Wir haben es analysiert und ich bin auf dem Guten weg ich müsste Jedoch noch das GeBüv beachten das habe ich heute noch nicht getan. Ich habe jedoch mein TrueNas erfolgreich neu afgesetzt das es mir am Anfang nicht möglich war einen Datenpool zu erstellen da es beim HyperV manager nicht möglich ist eine zusätzliche Festplatte mitzugeben beim erstellen einer VM. Oder ich habe einfach nicht herausgefunden wie. Jedoch habe ich dan nochmals die Einstellungen analysiert und herausgefunden das man nachträglich eine Zusätzliche Fesplatte hinzufügen kann. Das habe ich heute erreicht und habe es die dletzten Wochen for mir hergeschoben da ich dachte das wäre mit dem HyperV nicht möglich ich jedoch auch nicht die applikation zum starten der Vms wechseln wollte da ich mit HyperV sehr gute Erfahrungen gemacht habe.
+
+Ich bin vorallem mit der Planung weiter gekommen da ich mir jetzt mein Endprodukt konkret vorstellen kann. Ich habe auch schon im kopf wie ich es umsetzten werde jedoch gibt es noch ein paar Schen die mir noch unklar sind wie ich sie Lösen werde. Ich habe die Aufgabe verschoben mir zu überlegen wie ich eine Datenbank erstelle die ich nacher BAckupen will jedoch habe ich schon die Verbindungen zwischen den verschiedenen Clients überprüft und die funktioniert. Ein unnötiger Zeitfreeser war das ich als mein NAS Korrupt war oder einfach nicht mer funktioniert hatt das ich versucht habe das zu reparieren ob wohl ich auf diesem NAS sonst noch nichts gemacht habe und es 100 mal schneller gewesen wäre war es einfach neu aufzusetzten.
+
+
+
+
